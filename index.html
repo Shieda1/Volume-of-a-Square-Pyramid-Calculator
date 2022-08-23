@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volume of a Square Pyramid Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="volumeofSquarePyramidRadio" name="variables" checked>
+  <label for="volumeofSquarePyramidRadio">Volume of Square Pyramid</label>
+
+  <input type="radio" id="baseLengthofSquarePyramidRadio" name="variables">
+  <label for="baseLengthofSquarePyramidRadio">Base Length of Square Pyramid</label>
+
+  <input type="radio" id="verticalHeightofSquarePyramidRadio" name="variables">
+  <label for="verticalHeightofSquarePyramidRadio">Vertical Height of Square Pyramid</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Base Length of Square Pyramid</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Vertical Height of Square Pyramid</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
